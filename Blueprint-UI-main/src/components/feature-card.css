@@ -1,0 +1,55 @@
+.feature-card-feature-card {
+  width: 60%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.19);
+  margin-top: var(--dl-space-space-threeunits);
+  transition: 0.3s;
+  border-color: rgba(0, 0, 0, 0.18);
+  border-width: 1px;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.feature-card-feature-card:hover {
+  transform: scale(1.02);
+}
+.feature-card-text {
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.feature-card-text1 {
+  align-self: center;
+}
+.feature-card-navlink {
+  color: #9f5deb;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  margin-left: \;
+  border-width: 0px;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+  text-decoration: none;
+  background-color: #ddc0ff;
+}
+.feature-card-text2 {
+  align-self: center;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.feature-card-root-class-name {
+  align-self: flex-start;
+}
+.feature-card-root-class-name1 {
+  align-self: flex-start;
+}
+
+.feature-card-root-class-name3 {
+  margin-left: var(--dl-space-space-sixunits);
+}

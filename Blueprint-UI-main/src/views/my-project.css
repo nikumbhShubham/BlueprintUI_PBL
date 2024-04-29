@@ -1,0 +1,199 @@
+.my-project-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ddc0ff;
+}
+.my-project-container1 {
+  width: 100%;
+  height: 1170px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.my-project-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.my-project-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-sixunits);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+}
+.my-project-feature-card {
+  width: 234px;
+  height: 100%;
+  display: flex;
+  z-index: 100;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px rgba(191, 190, 190, 0.75);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  transition: 0.3s;
+  align-items: flex-start;
+  border-width: 0px;
+  padding-right: 2px;
+  animation-name: bounce;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-end;
+  background-color: var(--dl-color-gray-white);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.my-project-image {
+  width: 200px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.my-project-text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.my-project-text01 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.my-project-feature-card1 {
+  width: 234px;
+  height: 100%;
+  display: flex;
+  z-index: 100;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px rgba(191, 190, 190, 0.75);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  transition: 0.3s;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+  border-width: 0px;
+  padding-right: 2px;
+  animation-name: bounce;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-end;
+  background-color: var(--dl-color-gray-white);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.my-project-image1 {
+  width: 200px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.my-project-text02 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.my-project-text05 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.my-project-feature-card2 {
+  width: 234px;
+  height: 100%;
+  display: flex;
+  z-index: 100;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px rgba(191, 190, 190, 0.75);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  transition: 0.3s;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+  border-width: 0px;
+  padding-right: 2px;
+  animation-name: bounce;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-end;
+  background-color: var(--dl-color-gray-white);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.my-project-image2 {
+  width: 200px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.my-project-text06 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.my-project-text07 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.my-project-feature-card3 {
+  width: 234px;
+  height: 100%;
+  display: flex;
+  z-index: 100;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px rgba(191, 190, 190, 0.75);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  transition: 0.3s;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-fiveunits);
+  padding-right: 2px;
+  animation-name: bounce;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-end;
+  background-color: var(--dl-color-gray-white);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.my-project-image3 {
+  width: 200px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.my-project-text08 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.my-project-text09 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}

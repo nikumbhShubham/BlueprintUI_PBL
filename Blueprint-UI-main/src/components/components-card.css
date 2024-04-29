@@ -1,0 +1,115 @@
+.components-card-container {
+  width: 249px;
+  height: 361px;
+  display: flex;
+  position: relative;
+  margin-top: 300px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.components-card-feature-card {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 197px;
+  bottom: 0px;
+  height: 275px;
+  margin: auto;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: absolute;
+  align-self: center;
+  align-items: flex-end;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: flex-end;
+  background-color: var(--dl-color-gray-700);
+}
+.components-card-image {
+  width: 162px;
+  height: 234px;
+  object-fit: cover;
+}
+.components-card-container1 {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+.components-card-text {
+  font-size: 20px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.components-card-text1 {
+  color: var(--dl-color-gray-700);
+  text-align: center;
+}
+.components-card-root-class-name {
+  top: 56px;
+  left: 237px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.components-card-root-class-name1 {
+  margin-top: 0px;
+}
+.components-card-root-class-name2 {
+  margin-top: 0px;
+  margin-right: var(--dl-space-space-sixunits);
+}
+.components-card-root-class-name3 {
+  margin-top: 0px;
+}
+.components-card-root-class-name4 {
+  margin-top: 0px;
+  margin-left: 200px;
+  margin-right: var(--dl-space-space-fiveunits);
+}
+.components-card-root-class-name5 {
+  margin-top: 0px;
+}
+.components-card-root-class-name6 {
+  margin-top: 0px;
+}
+.components-card-root-class-name7 {
+  margin-top: 0px;
+}
+.components-card-root-class-name8 {
+  margin-top: 0px;
+}
+.components-card-root-class-name9 {
+  margin-top: 0px;
+}
+.components-card-root-class-name10 {
+  margin-top: 0px;
+}
+.components-card-root-class-name11 {
+  margin-top: 0px;
+}
+.components-card-root-class-name12 {
+  margin-top: 0px;
+}
+.components-card-root-class-name13 {
+  margin-top: 0px;
+}
+
+.components-card-root-class-name15 {
+  margin-top: 0px;
+}
+.components-card-root-class-name16 {
+  margin-top: 0px;
+}
+.components-card-root-class-name17 {
+  margin-top: 0px;
+}

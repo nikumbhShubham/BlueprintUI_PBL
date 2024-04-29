@@ -1,0 +1,38 @@
+.profile-page-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ddc0ff;
+}
+.profile-page-container1 {
+  width: 100%;
+  height: 1393px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.profile-page-container2 {
+  flex: 0 0 auto;
+  width: 1152px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.profile-page-container3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.profile-page-text {
+  color: #8b00bd;
+  font-size: 30px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-threeunits);
+  font-weight: 700;
+  margin-left: var(--dl-space-space-threeunits);
+}

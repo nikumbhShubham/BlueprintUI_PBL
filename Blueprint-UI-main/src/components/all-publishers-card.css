@@ -1,0 +1,20 @@
+.all-publishers-card-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f7f0ff;
+}
+.all-publishers-card-root-class-name {
+  align-self: center;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: 0px;
+}
+.all-publishers-card-root-class-name1 {
+  height: 100%;
+  align-self: center;
+}
+

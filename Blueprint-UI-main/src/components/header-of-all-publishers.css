@@ -1,0 +1,31 @@
+.header-of-all-publishers-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f7f0ff;
+}
+.header-of-all-publishers-text {
+  margin-top: var(--dl-space-space-twounits);
+  padding-top: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-twounits);
+}
+.header-of-all-publishers-text1 {
+  width: 60%;
+  text-align: center;
+  margin-left: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 20px;
+  margin-bottom: 0px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.header-of-all-publishers-root-class-name {
+  height: auto;
+  background-color: #f7f0ff;
+}
+
+

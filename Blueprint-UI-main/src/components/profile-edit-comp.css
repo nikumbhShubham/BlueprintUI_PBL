@@ -1,0 +1,61 @@
+.profile-edit-comp-container {
+  width: 70%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-white);
+}
+.profile-edit-comp-text {
+  color: #7f55af;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-twounits);
+  margin-left: var(--dl-space-space-sixunits);
+}
+.profile-edit-comp-container1 {
+  width: 446px;
+  display: flex;
+  align-self: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-bottom: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.profile-edit-comp-textinput {
+  margin-top: var(--dl-space-space-threeunits);
+  border-width: 0px;
+}
+.profile-edit-comp-textinput1 {
+  margin-top: var(--dl-space-space-threeunits);
+  border-width: 0px;
+}
+.profile-edit-comp-textinput2 {
+  margin-top: var(--dl-space-space-threeunits);
+  border-width: 0px;
+}
+.profile-edit-comp-update-password {
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-twounits);
+  margin-left: var(--dl-space-space-unit);
+  border-width: 0px;
+  background-color: #f6f8fa;
+}
+.profile-edit-comp-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-unit);
+}
+.profile-edit-comp-link {
+  color: #989be5;
+}
+.profile-edit-comp-root-class-name {
+  width: 90%;
+  margin-left: 0px;
+}

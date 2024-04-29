@@ -1,0 +1,40 @@
+.component1-container {
+  width: 130px;
+  height: 133px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.component1-image {
+  width: 128px;
+  height: 127px;
+  object-fit: cover;
+}
+.component1-root-class-name {
+  width: auto;
+}
+.component1-root-class-name1 {
+  width: auto;
+}
+.component1-root-class-name2 {
+  width: auto;
+}
+@media(max-width: 1200px) {
+  .component1-container {
+    width: 129px;
+    height: 87px;
+    padding-right: 0px;
+  }
+  .component1-image {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 115px;
+    bottom: 0px;
+    height: 109px;
+    margin: auto;
+    position: absolute;
+    align-self: center;
+  }
+}

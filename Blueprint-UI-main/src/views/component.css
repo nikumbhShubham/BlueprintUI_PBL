@@ -1,0 +1,549 @@
+.app-component-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ddc0ff;
+}
+.app-component-container1 {
+  width: 100%;
+  height: 1170px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.app-component-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.app-component-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-sixunits);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+}
+.app-component-feature-card {
+  width: 234px;
+  height: 100%;
+  display: flex;
+  z-index: 100;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px rgba(191, 190, 190, 0.75);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  transition: 0.3s;
+  align-items: flex-start;
+  border-width: 0px;
+  padding-right: 2px;
+  animation-name: bounce;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-end;
+  background-color: var(--dl-color-gray-white);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.app-component-image {
+  width: 200px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.app-component-text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-text01 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-feature-card01 {
+  width: 234px;
+  height: 100%;
+  display: flex;
+  z-index: 100;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px rgba(191, 190, 190, 0.75);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  transition: 0.3s;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+  border-width: 0px;
+  padding-right: 2px;
+  animation-name: bounce;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-end;
+  background-color: var(--dl-color-gray-white);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.app-component-image01 {
+  width: 200px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.app-component-text02 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-text03 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-feature-card02 {
+  width: 234px;
+  height: 100%;
+  display: flex;
+  z-index: 100;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px rgba(191, 190, 190, 0.75);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  transition: 0.3s;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+  border-width: 0px;
+  padding-right: 2px;
+  animation-name: bounce;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-end;
+  background-color: var(--dl-color-gray-white);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.app-component-image02 {
+  width: 200px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.app-component-text04 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-text05 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-feature-card03 {
+  width: 234px;
+  height: 100%;
+  display: flex;
+  z-index: 100;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px rgba(191, 190, 190, 0.75);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  transition: 0.3s;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-fiveunits);
+  padding-right: 2px;
+  animation-name: bounce;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-end;
+  background-color: var(--dl-color-gray-white);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.app-component-image03 {
+  width: 200px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.app-component-text06 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-text07 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-feature-card04 {
+  width: 234px;
+  height: 100%;
+  display: flex;
+  z-index: 100;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px rgba(191, 190, 190, 0.75);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  transition: 0.3s;
+  align-items: flex-start;
+  border-width: 0px;
+  padding-right: 2px;
+  animation-name: bounce;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-end;
+  background-color: var(--dl-color-gray-white);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.app-component-image04 {
+  width: 200px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.app-component-text08 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-text09 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-feature-card05 {
+  width: 234px;
+  height: 100%;
+  display: flex;
+  z-index: 100;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px rgba(191, 190, 190, 0.75);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  transition: 0.3s;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+  border-width: 0px;
+  padding-right: 2px;
+  animation-name: bounce;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-end;
+  background-color: var(--dl-color-gray-white);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.app-component-image05 {
+  width: 200px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.app-component-text10 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-text11 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-feature-card06 {
+  width: 234px;
+  height: 100%;
+  display: flex;
+  z-index: 100;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px rgba(191, 190, 190, 0.75);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  transition: 0.3s;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+  border-width: 0px;
+  padding-right: 2px;
+  animation-name: bounce;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-end;
+  background-color: var(--dl-color-gray-white);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.app-component-image06 {
+  width: 200px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.app-component-text12 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-text13 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-feature-card07 {
+  width: 234px;
+  height: 100%;
+  display: flex;
+  z-index: 100;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px rgba(191, 190, 190, 0.75);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  transition: 0.3s;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-fiveunits);
+  padding-right: 2px;
+  animation-name: bounce;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-end;
+  background-color: var(--dl-color-gray-white);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.app-component-image07 {
+  width: 200px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.app-component-text14 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-text15 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-container5 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-feature-card08 {
+  width: 234px;
+  height: 100%;
+  display: flex;
+  z-index: 100;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px rgba(191, 190, 190, 0.75);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  transition: 0.3s;
+  align-items: flex-start;
+  border-width: 0px;
+  padding-right: 2px;
+  animation-name: bounce;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-end;
+  background-color: var(--dl-color-gray-white);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.app-component-image08 {
+  width: 200px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.app-component-text16 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-text17 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-feature-card09 {
+  width: 234px;
+  height: 100%;
+  display: flex;
+  z-index: 100;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px rgba(191, 190, 190, 0.75);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  transition: 0.3s;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+  border-width: 0px;
+  padding-right: 2px;
+  animation-name: bounce;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-end;
+  background-color: var(--dl-color-gray-white);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.app-component-image09 {
+  width: 200px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.app-component-text18 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-text19 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-feature-card10 {
+  width: 234px;
+  height: 100%;
+  display: flex;
+  z-index: 100;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px rgba(191, 190, 190, 0.75);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  transition: 0.3s;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+  border-width: 0px;
+  padding-right: 2px;
+  animation-name: bounce;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-end;
+  background-color: var(--dl-color-gray-white);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.app-component-image10 {
+  width: 200px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.app-component-text20 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-text21 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-feature-card11 {
+  width: 234px;
+  height: 100%;
+  display: flex;
+  z-index: 100;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px rgba(191, 190, 190, 0.75);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  transition: 0.3s;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-fiveunits);
+  padding-right: 2px;
+  animation-name: bounce;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-end;
+  background-color: var(--dl-color-gray-white);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.app-component-image11 {
+  width: 200px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.app-component-text22 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-text23 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}

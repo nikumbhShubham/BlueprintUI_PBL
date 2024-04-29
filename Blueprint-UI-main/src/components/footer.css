@@ -1,0 +1,77 @@
+.footer-container13 {
+  width: 100%;
+  height: var(--dl-size-size-xxlarge);
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(139, 0, 189, 1);
+}
+.footer-text {
+  top: 206px;
+  left: 0px;
+  color: rgba(255, 255, 255, 1);
+  right: 0px;
+  width: 539px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 28px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.footer-group14 {
+  top: 75px;
+  left: 0px;
+  right: 0px;
+  width: 451px;
+  height: 54px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.footer-logoinstagram1 {
+  top: 0px;
+  left: 0px;
+  width: 54px;
+  height: 54px;
+  position: absolute;
+}
+.footer-dribbblelogo1 {
+  top: 0px;
+  left: 131px;
+  width: 54px;
+  height: 54px;
+  position: absolute;
+}
+.footer-linked-inlogo1 {
+  top: 0px;
+  left: 263px;
+  width: 54px;
+  height: 54px;
+  position: absolute;
+}
+.footer-envelopeopen1 {
+  top: 0px;
+  left: 397px;
+  width: 54px;
+  height: 54px;
+  position: absolute;
+}
+
+
+
+.footer-root-class-name3 {
+  margin-top: var(--dl-space-space-fourunits);
+}
+.footer-root-class-name4 {
+  margin-top: var(--dl-space-space-fiveunits);
+}
+
